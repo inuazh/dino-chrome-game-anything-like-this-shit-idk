@@ -23,6 +23,6 @@ let isAlive = setInterval ( function(){
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
     if(cactusLeft <55 && cactusLeft > 0 && travisTop >= 160){
-        alert("GAME OVER!!!")
+        alert("GAME OVER!!")
     }
 },10)
